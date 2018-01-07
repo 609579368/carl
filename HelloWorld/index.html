@@ -1,1 +1,839 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
 
+    <!-- Bootstrap -->
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="css/wjsfont.css">
+    <link rel="stylesheet"  href="css/index.css">
+  </head>
+  <body>
+    <div class="wjs-view">
+      <!-- 头部工具栏 -->
+      <div class="top-tol">
+           <div class="container-fluid">
+             <div class="row">
+                <div class="col-lg-2 col-md-2 hidden-sm hidden-xs">
+                  <a href="javascript:;"><span class="glyphicon glyphicon-phone"></span>手机微金所<span class="glyphicon glyphicon-menu-down"></span>
+                      <img src="images/code.jpg" alt=""></a>
+                </div>
+                <div class="col-lg-5 col-md-5 hidden-sm hidden-xs"><a href="javascript:;"><span class="glyphicon glyphicon-phone-alt"></span>4006-89-4006(服务时间：9:00-21:00)</a></div>
+                <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"><a href="javascript:;">常见问题 财富登录</a></div>
+                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                <button type="button" class="btn btn-danger">免费注册</button><a href="javascript:;">登录</a></div>
+             </div>
+           </div>
+      </div>
+      <!-- 导航栏 -->
+      <nav class="wjs-nav">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <span class="wjsfont wjsfont-logo" href="javascript:;"></span>
+                <span class="wjsfont wjsfont-name" href="javascript:;"></span>
+              </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">我要投资</a></li>
+                <li><a href="#">我要借贷</a></li>
+                <li><a href="#">平台介绍</a></li>
+                <li><a href="#">新手专区</a></li>
+                <li><a href="#">最新动态</a></li>
+                <li><a href="#">微平台</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">个人中心</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+		</nav>
+      </nav>
+      <!-- 轮播图 -->
+      <div class="carousel">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3500">
+  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img class="hidden-xs" src="images/slide_01_2000x410.jpg">
+			      <img class="hidden-lg hidden-md hidden-sm" src="images/slide_01_640x340.jpg">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img class="hidden-xs" src="images/slide_02_2000x410.jpg">
+			      <img class="hidden-lg hidden-md hidden-sm" src="images/slide_02_640x340.jpg">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>  
+			    <div class="item">
+			      <img class="hidden-xs" src="images/slide_03_2000x410.jpg">
+			      <img class="hidden-lg hidden-md hidden-sm" src="images/slide_03_640x340.jpg">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>  
+			    <div class="item">
+			      <img class="hidden-xs" src="images/slide_04_2000x410.jpg">
+			      <img class="hidden-lg hidden-md hidden-sm" src="images/slide_04_640x340.jpg">
+			      <div class="carousel-caption">
+			      </div>
+			    </div>  
+  			</div>
+  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+      </div>
+	<!-- 支付交易保障 -->
+	<!-- 大屏幕中等屏幕col-lg-4  col-md-4
+	小屏幕：col-sm-6
+	极小屏幕：col-xs    hidden-xs -->
+	<div class="wjs-zhifu hidden-xs">
+		<div class="container">
+			<div class="zhibao col-lg-4 col-md-4 col-sm-6 hidden-xs">
+				<a href="javascript=">
+				<div class="media">
+				  <div class="media-left"> 
+				      <span class="wjsfont wjsfont-e901"></span>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">支付交易保障</h4>
+				    银联支付全程保证支付安全
+				  </div>
+				</div>
+			</a>
+			</div>
+			<div class="zhibao col-lg-4 col-md-4 col-sm-6 hidden-xs">
+				<a href="javascript=">
+				<div class="media">
+				  <div class="media-left"> 
+				      <span class="wjsfont wjsfont-e901"></span>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">支付交易保障</h4>
+				    银联支付全程保证支付安全
+				  </div>
+				</div>
+			</a>
+			</div>
+			<div class="zhibao col-lg-4 col-md-4 col-sm-6 hidden-xs">
+				<a href="javascript=">
+				<div class="media">
+				  <div class="media-left"> 
+				      <span class="wjsfont wjsfont-e901"></span>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">支付交易保障</h4>
+				    银联支付全程保证支付安全
+				  </div>
+				</div>
+			</a>
+			</div>
+			<div class="zhibao col-lg-4 col-md-4 col-sm-6 hidden-xs">
+				<a href="javascript=">
+				<div class="media">
+				  <div class="media-left"> 
+				      <span class="wjsfont wjsfont-e901"></span>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">支付交易保障</h4>
+				    银联支付全程保证支付安全
+				  </div>
+				</div>
+			</a>
+			</div>
+			<div class="zhibao col-lg-4 col-md-4 col-sm-6 hidden-xs">
+				<a href="javascript=">
+				<div class="media">
+				  <div class="media-left"> 
+				      <span class="wjsfont wjsfont-e901"></span>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">支付交易保障</h4>
+				    银联支付全程保证支付安全
+				  </div>
+				</div>
+			</a>
+			</div>
+			<div class="zhibao col-lg-4 col-md-4 col-sm-6 hidden-xs">
+				<a href="javascript=">
+				<div class="media">
+				  <div class="media-left"> 
+				      <span class="wjsfont wjsfont-e901"></span>
+				  </div>
+				  <div class="media-body">
+				    <h4 class="media-heading">支付交易保障</h4>
+				    银联支付全程保证支付安全
+				  </div>
+				</div>
+			</a>
+			</div>
+		</div>
+	</div>
+	<!-- 正在排队 -->
+	<div class="wjs-waitting">
+		<div class="container">
+			<div class="pull-left"><span class="glyphicon glyphicon-time"></span>
+			现在有273人在排队，累计预约交易成功9999次。什么是<a href="href-javascript:;">立即预约</a></div>
+			<div class="pull-right hidden-xs"><a href="javascript:;"><span class="glyphicon glyphicon-camera"></span>微金所企业宣传片</a></div>
+		</div>
+	</div>
+	<!-- 微投资 -->
+	<div class="wjs-wtz">
+		<div>
+  <!-- Nav tabs -->
+		  <ul class="nav nav-tabs" role="tablist">
+		    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">特别推荐</a></li>
+		    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">wtz_profile</a></li>
+		    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">wtz_Messages</a></li>
+		    <li role="presentation" class="hidden-xs"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">wtz_Settings</a></li>
+		  </ul>
+
+		  <!-- Tab panes -->
+		  <div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active" id="home">
+		    	<div class="container-fluid">
+		    		<div class="row">
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+		    					<span class="wjsfont wjsfont-e915"></span>
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    60%
+  </div>
+</div>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1002期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1002期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			
+					</div>
+		    	</div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="profile">
+		    	<div class="container-fluid">
+		    		<div class="row">
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1100期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.02万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>10</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1010期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验3002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+    30%
+  </div>
+</div>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验152期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1092期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1142期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+    80%
+  </div>
+</div>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			
+					</div>
+		    	</div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="messages">
+		    	<div class="container-fluid">
+		    		<div class="row">
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1002期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1002期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+    50%
+  </div>
+</div>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			
+					</div>
+		    	</div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="settings">
+		    	<div class="container-fluid">
+		    		<div class="row">
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1002期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info">
+								<h4>新手体验1002期</h4>
+								
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wtz">
+		    				<div class="info wtz-bg">
+								<h4>新手体验1002期</h4>
+									<span class="wjsfont wjsfont-e915"></span>
+									<div class="pull-left">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<p>10天</p>
+								</div>
+								<div class="pull-right info-right">
+									<p>起投金额</p>
+									<p>0.01万</p>
+									<p>借款期限</p>
+									<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    60%
+  </div>
+</div>
+								</div>
+							
+								<div class="text">
+									<p>8</p>
+									<p>年利率</p>
+								</div>
+							</div>
+		    			</div>
+		    			
+		    			
+		    			
+					</div>
+		    	</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<!-- 全球新闻 -->
+	<div class="wjs-allnew">
+		<div class="allnew">
+			<p>全部新闻</p>
+		</div>
+		<ul class="list-group hidden-xs">
+		  <li class="list-group-item">Cras justo odio</li>
+		  <li class="list-group-item">Dapibus ac facilisis in</li>
+		  <li class="list-group-item">Morbi leo risus</li>
+		  <li class="list-group-item">Porta ac consectetur ac</li>
+		  <li class="list-group-item">Vestibulum at eros</li>
+		</ul>
+		<div class="earth earthmedia">
+			<div class="top">
+				<div class="wjs-bm">
+					<a class="wjsfont wjsfont-new01"></a>
+			</div>
+			<div class="wjs-y"></div>
+			</div>
+			<div class="wjs-bm floal">
+				<a class="wjsfont wjsfont-new01"></a>
+			</div>
+			<div class="wjs-x floal">
+				<div class="infoh"></div>
+			</div>
+			<div class="wjs-bm floal">
+				<a class="wjsfont wjsfont-new01"></a>
+			</div>
+			<div class="wjs-x floal">
+				<div class="infoh"></div>
+			</div>
+			<div class="wjs-bm floal">
+				<a class="wjsfont wjsfont-new01"></a>
+			</div>
+			<div class="bart">
+				<div class="wjs-y"></div>
+			</div>
+			<div class="wjs-bm floal">
+				<a class="wjsfont wjsfont-new01"></a>
+			</div>
+			<div class="wjs-x floal">
+				<div class="infoh"></div>
+			</div>
+			<div class="wjs-bm floal">
+				<a class="wjsfont wjsfont-new01"></a>
+			</div>
+			<div class="wjs-x floal">
+				<div class="infoh"></div>
+			</div>
+			<div class="wjs-bm floal">
+				<a class="wjsfont wjsfont-new01"></a>
+			</div>
+		</div>
+	</div>
+	<!-- 合作单位 -->
+	<div class="cooperation">
+		<p>和这些单位都有合作哦</p>
+		<a class="wjsfont wjsfont-partner01" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner02" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner03" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner04" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner05" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner06" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner07" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner08" href="javascript:;"></a>
+		<a class="wjsfont wjsfont-partner09" href="javascript:;"></a>
+		
+	</div>
+</div>
+
+
+
+
+
+
+  <script src="js/jquery.1.12.4.js"></script>
+  <script src="js/index.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+  </body>
+  
+</html>
